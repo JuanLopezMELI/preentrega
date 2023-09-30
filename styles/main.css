@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #04d2f219;
+}
+
+.remove-button {
+    height: fit-content;
+}
+
+.button-container {
+    margin-bottom: 10px;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+
+.task {
+    display: inline-block;
+    width: 90%;
+    background-color: inherit;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    cursor: pointer;
+}
+
+.done-task {
+    text-decoration: line-through;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 23%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.task-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.text-input {
+    width: 300px;
+    resize: none;
+    padding: 10px;
+}
+
+#pending {
+    background-color: #00cbc865;
+}
+
+#in-progress {
+    background-color: #ff990019;
+}
+
+#review {
+    background-color: #04d2f219;
+}
+
+#done {
+    background-color: #00ff002b;
+}

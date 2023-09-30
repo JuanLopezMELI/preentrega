@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <h1 class="main-title">LISTA DE TAREAS</h1>
+    <div class="button-container">
+        <input type="text" id="task-text" class="text-input" placeholder="Agregar una tarea">
+        <button class="add">Agregar Tarea</button>
+        <button class="empty">Vaciar Lista</button>
+    </div>
+    <div class="container">
+        <div class="column" id="pending">
+            <h2>Pendiente</h2>
+        </div>
+        <div class="column" id="to-do">
+            <h2>Por Hacer</h2>
+        </div>
+        <div class="column" id="in-progress">
+            <h2>En curso</h2>
+        </div>
+        <div class="column" id="review">
+            <h2>En revisión</h2>
+        </div>
+        <div class="column" id="done">
+            <h2>Terminado</h2>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+
+</html>
